@@ -1,0 +1,45 @@
+.main{
+  display:flex;
+  width:auto;
+  /* border:1px solid black; */
+  height:auto;
+  gap:10px;
+  margin-left:10px;
+  margin-top:10px;
+   position:relative;
+}
+.samedivs{
+  width:100px;
+  height:40px;
+  /* border:1px solid black; */
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index:1;
+  /* border-radius:10px; */
+  transition:all .5s;
+  cursor:pointer;
+  text-transform:capitalize;
+  
+}
+.samedivs:hover{
+  /* background-color:black; */
+  color:white;
+}
+
+.abs{
+  /* background:rgba(0,0,0,.3); */
+  position:absolute;
+  width:100%;
+  height:100%;
+  border-radius:10px;
+}
+.slider{
+  width:100px;
+  transition:all .5s;
+  height:40px;
+  background:rgba(0,0,0,.5);
+  /* border-bottom:1px solid black; */
+  border-radius:10px;
+}
+
